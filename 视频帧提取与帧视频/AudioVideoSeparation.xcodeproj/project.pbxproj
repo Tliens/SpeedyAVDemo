@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E41AE759217260430057DA7A /* VideoFrameGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41AE758217260430057DA7A /* VideoFrameGetter.swift */; };
+		E41AE75B2172643E0057DA7A /* 不想上班.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E41AE75A2172643E0057DA7A /* 不想上班.mp3 */; };
+		E41AE75D2172645D0057DA7A /* SaveImages in Resources */ = {isa = PBXBuildFile; fileRef = E41AE75C2172645D0057DA7A /* SaveImages */; };
+		E41AE75F2172EFA60057DA7A /* GenerateVideoByFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41AE75E2172EFA60057DA7A /* GenerateVideoByFrames.swift */; };
+		E41AE7612172FA130057DA7A /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41AE7602172FA130057DA7A /* UIImage+CVPixelBuffer.swift */; };
+		E4CED8292171CA4F00374D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CED8282171CA4F00374D48 /* AppDelegate.swift */; };
+		E4CED82B2171CA4F00374D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CED82A2171CA4F00374D48 /* ViewController.swift */; };
+		E4CED82E2171CA4F00374D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CED82C2171CA4F00374D48 /* Main.storyboard */; };
+		E4CED8302171CA5000374D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CED82F2171CA5000374D48 /* Assets.xcassets */; };
+		E4CED8332171CA5000374D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CED8312171CA5000374D48 /* LaunchScreen.storyboard */; };
+		E4CED83B2171CA8800374D48 /* 小苹果.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4CED83A2171CA8800374D48 /* 小苹果.mp4 */; };
+		E4CED8472171F41300374D48 /* 超级英雄.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4CED8442171F41200374D48 /* 超级英雄.mp3 */; };
+		E4CED8482171F41300374D48 /* 我要你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4CED8452171F41300374D48 /* 我要你.mp3 */; };
+		E4CED8492171F41300374D48 /* 不想上班.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4CED8462171F41300374D48 /* 不想上班.mp3 */; };
+		E4CED84D2171F58600374D48 /* 维多利亚2017.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4CED84C2171F58600374D48 /* 维多利亚2017.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E41AE758217260430057DA7A /* VideoFrameGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFrameGetter.swift; sourceTree = "<group>"; };
+		E41AE75A2172643E0057DA7A /* 不想上班.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不想上班.mp3"; sourceTree = "<group>"; };
+		E41AE75C2172645D0057DA7A /* SaveImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SaveImages; sourceTree = "<group>"; };
+		E41AE75E2172EFA60057DA7A /* GenerateVideoByFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateVideoByFrames.swift; sourceTree = "<group>"; };
+		E41AE7602172FA130057DA7A /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		E4CED8252171CA4F00374D48 /* AudioVideoSeparation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideoSeparation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4CED8282171CA4F00374D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4CED82A2171CA4F00374D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4CED82D2171CA4F00374D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4CED82F2171CA5000374D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4CED8322171CA5000374D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4CED8342171CA5000374D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CED83A2171CA8800374D48 /* 小苹果.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "小苹果.mp4"; sourceTree = "<group>"; };
+		E4CED83C2171E7E500374D48 /* AudioVideoSeparation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioVideoSeparation-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4CED8442171F41200374D48 /* 超级英雄.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "超级英雄.mp3"; sourceTree = "<group>"; };
+		E4CED8452171F41300374D48 /* 我要你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我要你.mp3"; sourceTree = "<group>"; };
+		E4CED8462171F41300374D48 /* 不想上班.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不想上班.mp3"; sourceTree = "<group>"; };
+		E4CED84C2171F58600374D48 /* 维多利亚2017.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "维多利亚2017.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4CED8222171CA4F00374D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4CED81C2171CA4F00374D48 = {
+			isa = PBXGroup;
+			children = (
+				E4CED8272171CA4F00374D48 /* AudioVideoSeparation */,
+				E4CED8262171CA4F00374D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4CED8262171CA4F00374D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4CED8252171CA4F00374D48 /* AudioVideoSeparation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4CED8272171CA4F00374D48 /* AudioVideoSeparation */ = {
+			isa = PBXGroup;
+			children = (
+				E4CED8282171CA4F00374D48 /* AppDelegate.swift */,
+				E4CED82A2171CA4F00374D48 /* ViewController.swift */,
+				E41AE758217260430057DA7A /* VideoFrameGetter.swift */,
+				E41AE75E2172EFA60057DA7A /* GenerateVideoByFrames.swift */,
+				E41AE7602172FA130057DA7A /* UIImage+CVPixelBuffer.swift */,
+				E41AE75C2172645D0057DA7A /* SaveImages */,
+				E4CED83A2171CA8800374D48 /* 小苹果.mp4 */,
+				E4CED84C2171F58600374D48 /* 维多利亚2017.mp4 */,
+				E4CED82C2171CA4F00374D48 /* Main.storyboard */,
+				E41AE75A2172643E0057DA7A /* 不想上班.mp3 */,
+				E4CED82F2171CA5000374D48 /* Assets.xcassets */,
+				E4CED8312171CA5000374D48 /* LaunchScreen.storyboard */,
+				E4CED8442171F41200374D48 /* 超级英雄.mp3 */,
+				E4CED8452171F41300374D48 /* 我要你.mp3 */,
+				E4CED8462171F41300374D48 /* 不想上班.mp3 */,
+				E4CED8342171CA5000374D48 /* Info.plist */,
+				E4CED83C2171E7E500374D48 /* AudioVideoSeparation-Bridging-Header.h */,
+			);
+			path = AudioVideoSeparation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4CED8242171CA4F00374D48 /* AudioVideoSeparation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4CED8372171CA5000374D48 /* Build configuration list for PBXNativeTarget "AudioVideoSeparation" */;
+			buildPhases = (
+				E4CED8212171CA4F00374D48 /* Sources */,
+				E4CED8222171CA4F00374D48 /* Frameworks */,
+				E4CED8232171CA4F00374D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioVideoSeparation;
+			productName = AudioVideoSeparation;
+			productReference = E4CED8252171CA4F00374D48 /* AudioVideoSeparation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4CED81D2171CA4F00374D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Quinn;
+				TargetAttributes = {
+					E4CED8242171CA4F00374D48 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = E4CED8202171CA4F00374D48 /* Build configuration list for PBXProject "AudioVideoSeparation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4CED81C2171CA4F00374D48;
+			productRefGroup = E4CED8262171CA4F00374D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4CED8242171CA4F00374D48 /* AudioVideoSeparation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4CED8232171CA4F00374D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41AE75B2172643E0057DA7A /* 不想上班.mp3 in Resources */,
+				E4CED8332171CA5000374D48 /* LaunchScreen.storyboard in Resources */,
+				E4CED8482171F41300374D48 /* 我要你.mp3 in Resources */,
+				E4CED84D2171F58600374D48 /* 维多利亚2017.mp4 in Resources */,
+				E4CED8302171CA5000374D48 /* Assets.xcassets in Resources */,
+				E4CED83B2171CA8800374D48 /* 小苹果.mp4 in Resources */,
+				E4CED8492171F41300374D48 /* 不想上班.mp3 in Resources */,
+				E41AE75D2172645D0057DA7A /* SaveImages in Resources */,
+				E4CED82E2171CA4F00374D48 /* Main.storyboard in Resources */,
+				E4CED8472171F41300374D48 /* 超级英雄.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4CED8212171CA4F00374D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41AE759217260430057DA7A /* VideoFrameGetter.swift in Sources */,
+				E41AE75F2172EFA60057DA7A /* GenerateVideoByFrames.swift in Sources */,
+				E41AE7612172FA130057DA7A /* UIImage+CVPixelBuffer.swift in Sources */,
+				E4CED82B2171CA4F00374D48 /* ViewController.swift in Sources */,
+				E4CED8292171CA4F00374D48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4CED82C2171CA4F00374D48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4CED82D2171CA4F00374D48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4CED8312171CA5000374D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4CED8322171CA5000374D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4CED8352171CA5000374D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4CED8362171CA5000374D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4CED8382171CA5000374D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL49D2HU6K;
+				INFOPLIST_FILE = AudioVideoSeparation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.image.AudioVideoSeparation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioVideoSeparation/AudioVideoSeparation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4CED8392171CA5000374D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL49D2HU6K;
+				INFOPLIST_FILE = AudioVideoSeparation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.image.AudioVideoSeparation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioVideoSeparation/AudioVideoSeparation-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4CED8202171CA4F00374D48 /* Build configuration list for PBXProject "AudioVideoSeparation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CED8352171CA5000374D48 /* Debug */,
+				E4CED8362171CA5000374D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4CED8372171CA5000374D48 /* Build configuration list for PBXNativeTarget "AudioVideoSeparation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CED8382171CA5000374D48 /* Debug */,
+				E4CED8392171CA5000374D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4CED81D2171CA4F00374D48 /* Project object */;
+}
