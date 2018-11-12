@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E460D4A4217F018400B0D957 /* 34.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = E460D4A3217F018400B0D957 /* 34.MP4 */; };
 		E4CED8292171CA4F00374D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CED8282171CA4F00374D48 /* AppDelegate.swift */; };
 		E4CED82B2171CA4F00374D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CED82A2171CA4F00374D48 /* ViewController.swift */; };
 		E4CED82E2171CA4F00374D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CED82C2171CA4F00374D48 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E460D4A3217F018400B0D957 /* 34.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 34.MP4; sourceTree = "<group>"; };
 		E4CED8252171CA4F00374D48 /* AudioVideoSeparation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideoSeparation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CED8282171CA4F00374D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4CED82A2171CA4F00374D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				E4CED8282171CA4F00374D48 /* AppDelegate.swift */,
 				E4CED82A2171CA4F00374D48 /* ViewController.swift */,
 				E4CED83A2171CA8800374D48 /* 小苹果.mp4 */,
+				E460D4A3217F018400B0D957 /* 34.MP4 */,
 				E4CED82C2171CA4F00374D48 /* Main.storyboard */,
 				E4CED82F2171CA5000374D48 /* Assets.xcassets */,
 				E4CED8312171CA5000374D48 /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E460D4A4217F018400B0D957 /* 34.MP4 in Resources */,
 				E4CED8332171CA5000374D48 /* LaunchScreen.storyboard in Resources */,
 				E4CED8302171CA5000374D48 /* Assets.xcassets in Resources */,
 				E4CED83B2171CA8800374D48 /* 小苹果.mp4 in Resources */,

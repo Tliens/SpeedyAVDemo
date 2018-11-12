@@ -31,7 +31,10 @@ class ViewController: UIViewController {
 extension ViewController{
     
     func initAsset(){
-        guard let path = Bundle.main.path(forResource: "小苹果", ofType: "mp4") else{
+//        guard let path = Bundle.main.path(forResource: "小苹果", ofType: "mp4") else{
+//            return
+//        }
+        guard let path = Bundle.main.path(forResource: "34", ofType: "MP4") else{
             return
         }
         let url = URL.init(fileURLWithPath: path)
@@ -91,7 +94,8 @@ extension ViewController{
         }
         audioExport?.outputURL = getAudioExportURL()
         audioExport?.outputFileType = AVFileType.m4a
-        audioExport?.timeRange = getTimeRange(asset:asset)
+//        audioExport?.timeRange = getTimeRange(asset:asset)
+        audioExport?.shouldOptimizeForNetworkUse = true
         audioExport?.exportAsynchronously(completionHandler: {[weak self]in
             print(self?.audioExport?.error)
         })
