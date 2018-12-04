@@ -54,6 +54,24 @@ class ViewController: UIViewController {
                 }
             }
         }
+        
+        for characteristic in asset.availableMediaCharacteristicsWithMediaSelectionOptions {
+            print("\(characteristic)")
+            
+            // Retrieve the AVMediaSelectionGroup for the specified characteristic.
+            if let group = asset.mediaSelectionGroup(forMediaCharacteristic: characteristic) {
+                // Print its options.
+                for option in group.options {
+                    print("  Option: \(option.displayName)")
+                }
+            }
+            
+            
+            
+        }
+        
+       
+        
         /*
          第一种 log 信息如下：
          ==================== 4
