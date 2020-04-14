@@ -1,9 +1,4 @@
 # Learn_AVFoundation
-videoa and audio processed by AVFoundation
+video and audio processed by AVFoundation
 
-2. 1234
-1.wo shi ni
-
-
-
-qwqwqqw
+音视频拼接，播放，裁剪Demo合集
